@@ -20,6 +20,5 @@ public class GameManager : MonoBehaviour {
 		else {
 			recording = true;
 		}
-		print(recording);
 	}
 }
