@@ -20,9 +20,9 @@ public class Replay : MonoBehaviour {
 	private Rigidbody rigidBody;
 
 	void Start () {
-		lastPosition = new MyKeyFrame(Time.time, transform.position, transform.rotation);
 		rigidBody = GetComponent<Rigidbody>();
 		gameManager = GameObject.FindObjectOfType<GameManager>();
+		lastPosition = new MyKeyFrame(Time.time, transform.position, transform.rotation);
 	}
 	
 	void Update () {
